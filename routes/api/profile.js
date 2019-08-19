@@ -207,7 +207,7 @@ router.post('/experience', passport.authenticate('jwt', {
                 from: req.body.from,
                 to: req.body.to,
                 current: req.body.current,
-                description: req.body.discription
+                description: req.body.description
             }
 
             // Add to experience array
@@ -245,7 +245,7 @@ router.post('/education', passport.authenticate('jwt', {
                 from: req.body.from,
                 to: req.body.to,
                 current: req.body.current,
-                description: req.body.discription
+                description: req.body.description
             }
 
             // Add to education array
